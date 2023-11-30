@@ -1,0 +1,34 @@
+*+h2{
+    color: coral;
+}
+*+.math{
+    color: red;
+}
+*+.biology{
+    color: darkgreen;
+}
+*+.programing{
+    color: chartreuse;
+}
+*+.history{
+    color: navy;
+}
+*+.science{
+    color: burlywood;
+}
+*.swimming{
+    color: dodgerblue;
+}
+*.reading{
+    color: sienna;
+}
+*.ennglish{
+    color: dimgrey;
+}
+*.computer_games{
+    color: navajowhite;
+}
+ul:hover{
+    text-shadow: 1px
+    2px 3 px rgb(243, 95, 3);
+}
