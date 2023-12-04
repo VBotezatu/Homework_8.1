@@ -1,34 +1,29 @@
-*+h2{
-    color: coral;
-}
-*+.math{
-    color: red;
-}
-*+.biology{
-    color: darkgreen;
-}
-*+.programing{
-    color: chartreuse;
-}
-*+.history{
-    color: navy;
-}
-*+.science{
-    color: burlywood;
-}
-*.swimming{
-    color: dodgerblue;
-}
-*.reading{
-    color: sienna;
-}
-*.ennglish{
-    color: dimgrey;
-}
-*.computer_games{
-    color: navajowhite;
-}
+
 ul:hover{
     text-shadow: 1px
     2px 3 px rgb(243, 95, 3);
 }
+a:focus{
+    color: darkmagenta;
+}
+h1:disabled{
+    color: brown;
+}
+ h2:checked{
+    color: blue;
+ }
+ ul:first-child{
+    color: chartreuse;
+ }
+ ul:nth-child(3){
+    color: darkgreen;
+ }
+ ul:last-child{
+    color: cornflowerblue;
+ }
+ ul:nth-child(n+2){
+    color: tomato;
+ }
+ ul::nth-child(-n+2){
+    color: black;
+ }
